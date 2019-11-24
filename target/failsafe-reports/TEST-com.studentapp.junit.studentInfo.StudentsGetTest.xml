@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.studentapp.AppTest" time="0.004" tests="1" errors="0" skipped="0" failures="0">
+<testsuite name="com.studentapp.junit.studentInfo.StudentsGetTest" time="0" tests="2" errors="2" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="cucumber.options" value="--tags @SMOKE"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_152\jre\bin"/>
     <property name="java.vm.version" value="25.152-b16"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\PrimeBatch_2\student-app-serenity"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\PrimeBatch_2\serenity\student-app-serenity"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\PrimeBatch_2\student-app-serenity"/>
+    <property name="user.dir" value="C:\PrimeBatch_2\serenity\student-app-serenity"/>
     <property name="java.runtime.version" value="1.8.0_152-b16"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_152\jre\lib\endorsed"/>
@@ -46,7 +47,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_152\jre"/>
-    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version2019.2.4 clean verify serenity:aggregate"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version2019.2.4 clean verify -Dcucumber.options=--tags @SMOKE serenity:aggregate"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -63,5 +64,14 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="shouldAnswerWithTrue" classname="com.studentapp.AppTest" time="0.004"/>
+  <testcase name="test01" classname="com.studentapp.junit.studentInfo.StudentsGetTest" time="0">
+    <error type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at com.studentapp.junit.studentInfo.StudentsGetTest.test01(StudentsGetTest.java:27)
+</error>
+  </testcase>
+  <testcase name="getAllStudent" classname="com.studentapp.junit.studentInfo.StudentsGetTest" time="0">
+    <error type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at com.studentapp.junit.studentInfo.StudentsGetTest.getAllStudent(StudentsGetTest.java:21)
+</error>
+  </testcase>
 </testsuite>

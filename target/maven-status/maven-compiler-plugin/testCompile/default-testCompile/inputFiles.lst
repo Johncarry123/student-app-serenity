@@ -1,3 +1,12 @@
-C:\PrimeBatch_2\student-app-serenity\src\test\java\com\studentapp\AppTest.java
-C:\PrimeBatch_2\student-app-serenity\src\test\java\com\studentapp\studentinfo\FirstSerenityTest.java
-C:\PrimeBatch_2\student-app-serenity\src\test\java\com\studentapp\testbase\TestBase.java
+C:\PrimeBatch_2\serenity\student-app-serenity\src\test\java\com\studentapp\studentinfo\TagsTest.java
+C:\PrimeBatch_2\serenity\student-app-serenity\src\test\java\com\studentapp\studentinfo\StudentCURDTest.java
+C:\PrimeBatch_2\serenity\student-app-serenity\src\test\java\com\studentapp\cucumber\steps\MyStepdefs.java
+C:\PrimeBatch_2\serenity\student-app-serenity\src\test\java\com\studentapp\studentinfo\StudentCURDTestWithSteps.java
+C:\PrimeBatch_2\serenity\student-app-serenity\src\test\java\com\studentapp\junit\studentidinfo\StudentsGetTest1.java
+C:\PrimeBatch_2\serenity\student-app-serenity\src\test\java\com\studentapp\StudentTest\StudentsGetTest.java
+C:\PrimeBatch_2\serenity\student-app-serenity\src\test\java\com\studentapp\studentinfo\FirstSerenityTest.java
+C:\PrimeBatch_2\serenity\student-app-serenity\src\test\java\com\studentapp\testbase\TestBase.java
+C:\PrimeBatch_2\serenity\student-app-serenity\src\test\java\com\studentapp\cucumber\serenity\StudentSerenitySteps.java
+C:\PrimeBatch_2\serenity\student-app-serenity\src\test\java\com\studentapp\junit\studentInfo\StudentsGetTest.java
+C:\PrimeBatch_2\serenity\student-app-serenity\src\test\java\com\studentapp\cucumber\CucumberRunner.java
+C:\PrimeBatch_2\serenity\student-app-serenity\src\test\java\com\studentapp\studentinfo\CreateStudentDataDrivenTest.java

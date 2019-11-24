@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.studentapp.StudentTest.StudentsGetTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE! - in com.studentapp.StudentTest.StudentsGetTest
+test01(com.studentapp.StudentTest.StudentsGetTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at com.studentapp.StudentTest.StudentsGetTest.test01(StudentsGetTest.java:27)
+
+getAllStudent(com.studentapp.StudentTest.StudentsGetTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at com.studentapp.StudentTest.StudentsGetTest.getAllStudent(StudentsGetTest.java:21)
+

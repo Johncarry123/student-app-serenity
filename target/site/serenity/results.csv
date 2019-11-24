@@ -1,2 +1,2 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"First serenity test","Get all students","SUCCESS","2019-11-16T18:28:59.070Z","0.0","5.54"
+"Testing different requests on the student application","Check if the student application can be accessed by users","SUCCESS","2019-11-23T16:16:27.730Z","0.0","6.47"

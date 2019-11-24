@@ -1,1 +1,3 @@
-com\studentapp\App.class
+com\studentapp\studentinfo\GetStudentsMethod.class
+com\studentapp\model\utils\TestUtils.class
+com\studentapp\model\StudentPojo.class
